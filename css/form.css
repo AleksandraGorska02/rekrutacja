@@ -1,0 +1,175 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  color: #262a3a;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  background: #1f3c5c;
+  background: linear-gradient(117deg, #1f3c5c 0%, #abafb0 54%, #1f3c5c 98%);
+}
+
+.container {
+  height: 100px;
+  padding: 25px;
+}
+
+.box-container {
+  clear: both;
+  text-align: center;
+}
+
+.check {
+  width: 130px;
+  height: 25px;
+  padding-left: 30px;
+  text-align: left;
+  margin: 5px;
+  display: inline-block;
+}
+
+.check .ch {
+  text-align: left;
+}
+
+#task-frontend input[type="checkbox"] {
+  text-transform: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.title .title-text {
+  font-size: xx-large;
+  color: #262a3a;
+}
+
+#task-frontend form > label {
+  text-transform: uppercase;
+  margin: 5px auto 5px auto;
+  padding-left: 20px;
+}
+
+#task-frontend input[type="text"], #task-frontend input[type="email"] {
+  display: block;
+  margin: 10px auto;
+  border: 1px solid #262a3a;
+  width: 230px;
+  height: 30px;
+  border-radius: 20px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color: #262a3a;
+  padding-left: 20px;
+}
+
+::-webkit-input-placeholder {
+  color: #262a3a;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+:-ms-input-placeholder {
+  color: #262a3a;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+::-ms-input-placeholder {
+  color: #262a3a;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+::placeholder {
+  color: #262a3a;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+#task-frontend {
+  border-radius: 40px;
+  max-width: 400px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 65px auto;
+  text-align: center;
+  background-color: #a8b6c7;
+  -webkit-box-shadow: 0 0 30px 5px #377185;
+          box-shadow: 0 0 30px 5px #377185;
+}
+
+.title-section {
+  margin-top: 20px;
+}
+
+.title-section .p {
+  font-size: larger;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color: #262a3a;
+}
+
+.p1 {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color: #262a3a;
+}
+
+.button {
+  width: 120px;
+  height: 50px;
+  border-radius: 20px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-weight: bold;
+  color: #262a3a;
+}
+/*# sourceMappingURL=form.css.map */

@@ -1,0 +1,33 @@
+#task-frontend form>label {
+    text-transform: uppercase;
+   
+      margin: 5px auto 5px auto;
+      padding-left: 20px;
+  }
+  
+  #task-frontend input[type="text"], #task-frontend input[type="email"] {
+    display: block;
+    margin: 10px auto;
+    border: 1px solid $text-color;
+    width: 230px;
+    height: 30px;
+    border-radius: 20px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: $text-color;
+    padding-left: 20px;
+    
+  }
+  ::-webkit-input-placeholder {
+    color: $text-color;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+  }
+
+  :-ms-input-placeholder { 
+      color:$text-color;
+      font-family: "Comic Sans MS", "Comic Sans", cursive;
+  }
+
+  ::placeholder {
+      color: $text-color;
+      font-family: "Comic Sans MS", "Comic Sans", cursive;
+  }

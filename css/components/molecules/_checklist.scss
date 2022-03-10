@@ -1,0 +1,28 @@
+.container {
+   
+    height: 100px;
+    padding: 25px;
+  }
+  
+  .box-container{
+    clear: both;
+    text-align:center;
+  }
+  
+  .check {
+    width: 130px;
+    height: 25px;
+   padding-left: 30px;
+    
+  text-align: left;
+    margin: 5px;
+    display: inline-block;
+    .ch{text-align: left;}
+  }
+ 
+  #task-frontend input[type="checkbox"] {
+   
+    text-transform: none;
+    justify-content: center;
+
+}
